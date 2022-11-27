@@ -8,7 +8,6 @@ variable "name" {
   type        = string
 }
 
-
 variable "ami" {
   description = ""
   type        = string
@@ -24,7 +23,6 @@ variable "monitoring" {
   type        = bool
 }
 
-
 variable "iam_instance_profile" {
   description = ""
   type        = string
@@ -39,7 +37,6 @@ variable "subnet_id" {
   description = ""
   type        = string
 }
-
 
 variable "tags" {
   description = ""

@@ -1,4 +1,3 @@
-
 variable "bucket" {
   description = ""
   type        = string
